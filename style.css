@@ -1,0 +1,102 @@
+
+
+body{
+    background-color: grey;
+  }
+  
+  #letter {
+   font-family: helvetica, arial;
+   font-size: 100px;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   }
+   
+   .time{
+     font-family: helvetica, arial;
+   font-size: 50px;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   }
+   
+  #endScreen{
+    position: absolute;
+    text-align: center;
+    font-family: helvetica, arial;
+    color: #3b4069;
+    height: 80%;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #f0f3eb;
+    display: none;
+    border-radius: 5%;
+    border: solid 4px #3b4069;
+  }
+  
+  #retry{
+    width: 50%;
+    height: 20%;
+    background-color: #3b4069;
+    color: #f0f3eb;
+    font-size: 100%;
+    border-radius: 5%;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    box-shadow: 10px 10px 10px lightblue;
+  }
+  
+  #retry:hover{
+     box-shadow: 5px 5px 10px lightblue;
+     background-color: #535a93;
+     color: #f0f3eb;
+  }
+  
+  #endTime{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+    color: #3b4069;
+     font-size: 130%;
+  }
+  
+  #endWords{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    transform: translate(-50%, -80%);
+    color: #3b4069;
+    font-size: 150%;
+  }
+  
+  #restart{
+    width: 15%;
+    height: 10%;
+    background-color: #3b4069;
+    color: #f0f3eb;
+    font-size: 100%;
+    border-radius: 5%;
+    border: none;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    transform: translate(-50%, -25%);
+    
+  }
+  
+  #restart:hover{
+     box-shadow: 5px 5px 10px lightblue;
+     background-color: #535a93;
+     color: #f0f3eb;
+  }
